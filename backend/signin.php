@@ -1,5 +1,5 @@
 <?php
-    include("connect.php");
+    include("backend/connect.php");
     if(isset($_POST["signin"])){
         $username = $_POST["username"];    
         $email = $_POST["email"];
@@ -28,7 +28,7 @@
                     die("Error in statement execution: " . $stmt->error);
                 }
                 $result = $stmt->get_result();
-                header("location:welcome.php");
+                header("location:frontend/views/welcome.php");
                 exit();
             }else{
                 echo '<script>

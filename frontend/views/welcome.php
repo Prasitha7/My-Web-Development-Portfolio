@@ -1,5 +1,5 @@
 <?php
-    include("connect.php");
+    include("../../backend/connect.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
