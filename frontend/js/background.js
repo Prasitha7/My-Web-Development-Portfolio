@@ -15,7 +15,7 @@ for(let i = 0; i<frameCount; i++){
     images.push(img)
 }
 
-gsap.to(pj,{
+/*gsap.to(pj,{
         frame:frameCount-1,
         snap:"frame",
         ease:"none",
@@ -26,7 +26,14 @@ gsap.to(pj,{
         },
         onUpdate: render,
     }
-)
+)*/
+
+document.addEventListener("mousemove", (event) => {
+    // Update the frame based on the horizontal cursor position
+    const xPercentage = event.clientX / window.innerWidth;
+    pj.frame = Math.floor(xPercentage * frameCount);
+    render();
+});
 
 images[0].onload = render;
 

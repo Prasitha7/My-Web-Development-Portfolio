@@ -4,11 +4,32 @@
     box-sizing: border-box;
 }
 
-canvas{
-    width: 100%;
-    height: 100%;
+body{
+    overflow-x: hidden;
 }
 
-.ball-text{
-    display: none;
+.canvas-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1; /* Set a negative z-index to place it behind other elements */
+}
+
+canvas {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.name{
+    position:fixed;
+    z-index: 2;
+    color: azure;
+    font-size: 5rem;
+    right: 20%;
+    bottom: 40%;
+    transform: translate(-20%, -40%);
 }
