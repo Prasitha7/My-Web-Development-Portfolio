@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prasitha Samaraarachchi</title>
-    <link rel="stylesheet" href="frontend/styles/home-style.css">
+    <link rel="stylesheet" href="frontend/styles/index-style.css">
 </head>
 <body>
-    <h2 class="name">Prasitha Samaraarachchi</h2>
+    <div>
+        
+        <a class="name" href="frontend/views/home-view.php">Go TO Website</a>
+    </div>
+        
     <div class="canvas-container">
         <canvas class="canvas"></canvas>
     </div>

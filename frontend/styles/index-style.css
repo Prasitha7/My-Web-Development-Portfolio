@@ -25,7 +25,16 @@ canvas {
 }
 
 .name{
-    position:fixed;
+    position: fixed;
+    z-index: 2;
+    color: azure;
+    font-size: 5rem;
+    right: 20%;
+    bottom: 40%;
+    transform: translate(-20%, -40%);
+}
+.link{
+    position: fixed;
     z-index: 2;
     color: azure;
     font-size: 5rem;
