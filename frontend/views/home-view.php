@@ -20,8 +20,11 @@
 
 <!--Navigation Bar-->
 <div class="topnav">
-    <div class="topnav-menu">
+    <div class="topnav-home">
         <a class="home" href="home-view.php">I am PrasithaJ</a>
+    </div>
+    <div class="topnav-menu">
+        
         <a href="#news">About</a>
         <a href="#portfolio">Portfolio</a>
         <a href="#skills">Skills</a> 

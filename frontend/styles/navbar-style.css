@@ -3,12 +3,6 @@
     background-color: #d9d9d9;
     overflow: hidden;
     display: flex;
-    justify-content: space-between; /* Align items in the topnav */
-}
-
-.topnav-menu{
-    background-color: #d9d9d9;
-    overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
@@ -20,27 +14,48 @@
     text-decoration: none;
     font-size: 17px;
     font-family: 'Inria Sans', sans-serif;
+    position: relative; /* Add relative positioning for pseudo-element */
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #ccc;
+.topnav-home a {
+    background-color: #d9d9d9;
     color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.home {
-    background-color: #21223a;
-    color: azure;
     font-size: 21px;
     padding: 7px 20px;
+    margin-right: 40px; /* Adjust the right margin to control space */
 }
 
+.topnav-menu {
+    background-color: #d9d9d9;
+    overflow: hidden;
+    margin-right: auto; /* Align to the left */
+}
+
+/* Add underline effect */
+.topnav-menu a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #5c5c5c; /* Underline color */
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Change the color of links and reveal underline on hover */
+.topnav-menu a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
 
 /* Style the right side of the navigation bar */
 .topnav-right {
     display: flex;
     align-items: center;
+    margin-left: 10px; /* Adjust the left margin to control space */
 }
 
 /* Style the login and sign-in links */
@@ -49,4 +64,7 @@
     color: azure;
 }
 
-
+.topnav-right a:hover {
+    background-color: #ccc;
+    color: black;
+}
