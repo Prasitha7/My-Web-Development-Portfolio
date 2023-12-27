@@ -12,7 +12,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!--Inria Font-->
-    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap" rel="stylesheet">
+    <!--Poppins Font-->
+    <!--Inter Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&family=Inter&family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+    <!--Style Sheets-->
     <link rel="stylesheet" href="../styles/home-style.css">
     <link rel="stylesheet" href="../styles/navbar-style.css">
 </head>
@@ -39,10 +42,17 @@
     </div>
 </div>
 
+
 <!--Website Start-->
-<div class="hero">
-    <h3>Showcasing</h3>
-    <h1>my <br> Web Development <br> Skills</h1>
+<div class="scroll 1">
+    <div class="hero">
+        <h3>Showcasing</h3>
+        <h2>my</h2>
+        <h1> Web Development <br> Expertise</h1>
+    </div>
 </div>
+<div class="scroll 2">
+
+</div>    
 </body>
 </html>

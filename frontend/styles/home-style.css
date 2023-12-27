@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.scroll {
+    height: 100vh;
+}
+
+/* Style for the first section */
+.scroll:nth-child(2) {
+    background-color: #feffff; /* Change the background color as needed */
+    align-content: center;
+}
+
+/* Style for the second section */
+.scroll:nth-child(3) {
+    background-color: #949696; /* Change the background color as needed */
+    
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+}
+
+.hero h1 {
+    font-size: 128pt; /* Adjust the font size as needed */
+    text-align: center;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.hero h2 {
+    font-size: 96pt; /* Adjust the font size as needed */
+    text-align: center;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.hero h3 {
+    font-size: 64pt; /* Adjust the font size as needed */
+    text-align: left;
+    margin: 0;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    margin-left: 5%;
+    
+}
