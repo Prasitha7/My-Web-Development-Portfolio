@@ -1,36 +1,39 @@
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: #d9d9d9;
     overflow: hidden;
     display: flex;
     justify-content: space-between; /* Align items in the topnav */
 }
 
 .topnav-menu{
-    background-color: #333;
+    background-color: #d9d9d9;
     overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-family: 'Inria Sans', sans-serif;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: #ccc;
     color: black;
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
-    background-color: #0c0d2b;
-    color: white;
+.topnav a.home {
+    background-color: #21223a;
+    color: azure;
+    font-size: 21px;
+    padding: 7px 20px;
 }
 
 
@@ -42,7 +45,8 @@
 
 /* Style the login and sign-in links */
 .topnav-right a {
-    padding: 14px 16px;
+    padding: 10px 16px;
+    color: azure;
 }
 
 
