@@ -6,7 +6,7 @@
     <title>Document</title>
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!--Font Awsom-->
+    <!--Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,16 +43,59 @@
 </div>
 
 
+
+
 <!--Website Start-->
-<div class="scroll 1">
+<div class="scroll">
     <div class="hero">
         <h3>Showcasing</h3>
         <h2>my</h2>
         <h1> Web Development <br> Expertise</h1>
     </div>
 </div>
-<div class="scroll 2">
 
-</div>    
+<!-- Local Navigation Bar -->
+<div class="homenav">
+    <ul>
+        <li><button class="scroll-button" id="scroll-button-myFeatures" data-target="my-features" onclick="myFeatures()">My Features</button></li>
+        <li><button class="scroll-button" data-target="portfolio">Portfolio</button></li>
+        <li><button class="scroll-button" data-target="gallery">Gallery</button></li>
+        <li><button class="scroll-button" data-target="my-work">Things I Do</button></li>
+        <li><button class="scroll-button" data-target="contact-me">Contact Me</button></li>
+    </ul>
+</div>
+
+<!-- My Features Section -->
+<div class="scroll" id="my-features">
+    <h2>My Features Section</h2>
+    <!-- Add your content for the My Features section here -->
+</div>
+
+<!-- Portfolio Section -->
+<div class="scroll" id="portfolio">
+    <h2>Portfolio Section</h2>
+    <!-- Add your content for the Portfolio section here -->
+</div>
+
+<!-- Gallery Section -->
+<div class="scroll" id="gallery">
+    <h2>Gallery Section</h2>
+    <!-- Add your content for the Gallery section here -->
+</div>
+
+<!-- My Work Section -->
+<div class="scroll" id="my-work">
+    <h2>Things I Do</h2>
+    <!-- Add your content for the My Work section here -->
+</div>
+
+<!-- Contact Me Section -->
+<div class="scroll" id="contact-me">
+    <h2>Contact Me Section</h2>
+    <!-- Add your content for the Contact Me section here -->
+</div>
+  
+<script src="../js/home-navigation.js"></script>
+<script src="../js/home-animation.js"></script>
 </body>
 </html>
